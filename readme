@@ -1,0 +1,31 @@
+这里是project1 
+
+一个简单的网络购物系统。
+
+有菜单，用户可以看到物品，然后可以选定物品，放入购物车，最后结账。
+
+1、菜单，由xml文件动态生成。
+2、看到菜单，有php文件根据xml生成html页面。
+3、选定物品，采用checkbox方式？还没有确定，需要尝试。
+4、放入购物车，利用的是 session，在服务器端保存物品。
+5、结账，用户确认购物车的内容，选择结账。服务器将购物内容存入xml
+
+几个xml：
+	1、menu.xml 用于保存物品的菜单信息
+	2、order.xml 用户保存购物车的信息
+	3、user.xml 暂时不考虑用户信息。
+
+开发 loop 
+1 build the menu.xml (maybe < 10 items)
+2 render menu
+3 render the way for select items
+4 add ability to put items into cart
+5 checkout -> session_destroy()
+6 back to step 1 , change the menu
+
+想法：
+	1、先跟着感觉走，开发到哪儿算哪儿
+	2、期望能够使用mvc结构，不过可能会在第二loop或之后再修改。
+	3、期望能够使用git进行代码管理。
+	4、先不在本机安装 xampp ，由于不用数据库，还是传到网上测试代码。
+	
