@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+	<order id="1001" test="test">
+		<orderUser id="uID001">
+			<name>Tom</name>
+		</orderUser>
+		<orderTime>2013-05-25</orderTime>
+		<items>
+			<item id="i005">
+				<name>item 5</name>
+				<description/>
+				<price>5.05</price>
+				<num>2</num>
+			</item>
+			<item id="i006">
+				<name>item 6</name>
+				<description/>
+				<price>6.06</price>
+				<num>1</num>
+			</item>
+		</items>
+		<totalPrice>16.16</totalPrice>
+	</order>
+<order id="1002" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i001"><name>item 1</name><description>这里是物品的描述内容，物品1</description><price>1.01</price><num>2</num></item><item id="i002"><name>item 2</name><description/><price>2.02</price><num>3</num></item></items><totalPrice>8.08</totalPrice></order><order id="1003" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i001"><name>item 1</name><description>这里是物品的描述内容，物品1</description><price>1.01</price><num>1</num></item><item id="i002"><name>item 2</name><description/><price>2.02</price><num>3</num></item></items><totalPrice>7.07</totalPrice></order><order id="1004" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i002"><name>item 2</name><description/><price>2.02</price><num>2</num></item></items><totalPrice>4.04</totalPrice></order><order id="1005" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i002"><name>item 2</name><description/><price>2.02</price><num>2</num></item></items><totalPrice>4.04</totalPrice></order><order id="1006" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i001"><name>item 1</name><description>这里是物品的描述内容，物品1</description><price>1.01</price><num>5</num></item></items><totalPrice>5.05</totalPrice></order><order id="1007" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i001"><name>item 1</name><description>这里是物品的描述内容，物品1</description><price>1.01</price><num>1</num></item><item id="i002"><name>item 2</name><description/><price>2.02</price><num>1</num></item></items><totalPrice>3.03</totalPrice></order><order id="1008" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i001"><name>item 1</name><description>这里是物品的描述内容，物品1</description><price>1.01</price><num>1</num></item><item id="i002"><name>item 2</name><description/><price>2.02</price><num>1</num></item><item id="i003"><name>item 3</name><description/><price>3.03</price><num>1</num></item></items><totalPrice>6.06</totalPrice></order><order id="1009" test="test"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i001"><name>item 1</name><description>这里是物品的描述内容，物品1</description><price>1.01</price><num>1</num></item><item id="i002"><name>item 2</name><description/><price>2.02</price><num>1</num></item><item id="i003"><name>item 3</name><description/><price>3.03</price><num>1</num></item></items><totalPrice>6.06</totalPrice></order><order id="1010"><orderUser id="uID002"><name>Jack</name></orderUser><orderTime>2013-05-26</orderTime><items><item id="i001"><name>item 1</name><description>这里是物品的描述内容，物品1</description><price>1.01</price><num>1</num></item><item id="i002"><name>item 2</name><description></description><price>2.02</price><num>1</num></item><item id="i003"><name>item 3</name><description></description><price>3.03</price><num>1</num></item><item id="i004"><name>item 4</name><description></description><price>4.04</price><num>1</num></item></items><totalPrice>10.1</totalPrice></order></orders>
